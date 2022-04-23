@@ -1,0 +1,8 @@
+#install qrcode
+pip install qrcode
+import qrcode
+#add a sentence or link to your qr code
+img = qrcode.make("https://github.com/CohanR")
+#save the qr code with using your favourite format
+img.save('poster_rc.jpg)
+#the qr code should now be saved in your working directory
